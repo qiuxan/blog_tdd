@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +47,11 @@
         <counts>
           <entry key="env" value="3" />
           <entry key="homestead-7:" value="1" />
-          <entry key="js" value="2" />
-          <entry key="json" value="1" />
+          <entry key="js" value="3" />
+          <entry key="json" value="3" />
           <entry key="master" value="1" />
-          <entry key="php" value="37" />
-          <entry key="scss" value="1" />
+          <entry key="php" value="39" />
+          <entry key="scss" value="2" />
           <entry key="vagrant:" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -63,12 +59,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="Blade" value="10" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="Blade" value="12" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="3" />
           <entry key="PHP" value="27" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="1" />
+          <entry key="SCSS" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -76,20 +72,20 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="env" value="21" />
-          <entry key="js" value="1" />
-          <entry key="php" value="4338" />
-          <entry key="scss" value="1" />
+          <entry key="js" value="56" />
+          <entry key="php" value="4771" />
+          <entry key="scss" value="2" />
           <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="Blade" value="1046" />
-          <entry key="JavaScript" value="1" />
+          <entry key="Blade" value="1479" />
+          <entry key="JavaScript" value="56" />
           <entry key="PHP" value="3292" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="1" />
+          <entry key="SCSS" value="2" />
           <entry key="XML" value="54" />
         </counts>
       </usages-collector>
@@ -98,36 +94,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="e#277#298#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tailwind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="465">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -138,17 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="116">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -159,28 +132,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects/create.blade.php">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="132">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="506">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -201,6 +165,8 @@
       <find>vie</find>
       <find>auth</find>
       <find>guest</find>
+      <find>sha</find>
+      <find>grey</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,13 +187,14 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
+        <option value="$PROJECT_DIR$/tailwind.js" />
       </list>
     </option>
   </component>
@@ -339,10 +306,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1862" />
-    <option name="y" value="-1594" />
-    <option name="width" value="1862" />
-    <option name="height" value="1300" />
+    <option name="x" value="226" />
+    <option name="y" value="163" />
+    <option name="width" value="1228" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -365,7 +332,20 @@
               <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +377,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="m&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;view&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views&#10;projectc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;user&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;migrat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations&#10;route&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;layout&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;m&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;view&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views&#10;projectc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;user&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;migrat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations&#10;route&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -448,18 +428,18 @@
       <workItem from="1552213521911" duration="5889000" />
       <workItem from="1552369040490" duration="1752000" />
       <workItem from="1552441065051" duration="10839000" />
-      <workItem from="1552605973142" duration="10465000" />
+      <workItem from="1552605973142" duration="19281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45936000" />
+    <option name="totallyTimeSpent" value="54752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1862" y="-1594" width="1862" height="1300" extended-state="0" />
+    <frame x="226" y="163" width="1228" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20054945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19561552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -586,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/projects/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -600,17 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state relative-caret-position="22">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -621,36 +587,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tailwind.js">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="264">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#277#298#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tailwind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

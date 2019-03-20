@@ -14,7 +14,9 @@
                 <div class="lg:w-3/4 px-3 mb-6">
                     <div class="mb-8">
                         <h2 class="text-lg text-grey font-normal mb-3">Tasks</h2>
-                        <div class="card">dafasdsn dasfayys</div>
+                        @foreach($project->tasks as $task)
+                            <div class="card mb-3">{{$task->body}}</div>
+                        @endforeach
                         {{--tasks--}}
                     </div>
                     <div>

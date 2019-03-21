@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProjectFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProjectFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ProjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ProjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +63,7 @@
           <entry key="js" value="4" />
           <entry key="json" value="3" />
           <entry key="master" value="1" />
-          <entry key="php" value="60" />
+          <entry key="php" value="63" />
           <entry key="scss" value="3" />
           <entry key="svg" value="5" />
           <entry key="vagrant:" value="1" />
@@ -76,10 +73,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="Blade" value="18" />
+          <entry key="Blade" value="19" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="42" />
+          <entry key="PHP" value="44" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="3" />
           <entry key="SVG" value="5" />
@@ -91,7 +88,7 @@
           <entry key="dummy" value="6" />
           <entry key="env" value="21" />
           <entry key="js" value="80" />
-          <entry key="php" value="7871" />
+          <entry key="php" value="8410" />
           <entry key="scss" value="174" />
           <entry key="xml" value="54" />
         </counts>
@@ -99,9 +96,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="Blade" value="3255" />
+          <entry key="Blade" value="3480" />
           <entry key="JavaScript" value="80" />
-          <entry key="PHP" value="4616" />
+          <entry key="PHP" value="4930" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="174" />
           <entry key="XML" value="54" />
@@ -112,22 +109,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#33#52#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+            <state relative-caret-position="-7">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
               <folding>
                 <element signature="e#33#77#0#PHP" expanded="true" />
               </folding>
@@ -135,47 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/factories/TaskFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/ProjectFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Project.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Task.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="630">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -183,29 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/ProjectTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+            <state relative-caret-position="832">
+              <caret line="28" column="105" selection-start-line="28" selection-start-column="105" selection-end-line="28" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -255,15 +186,15 @@
         <option value="$PROJECT_DIR$/tests/TestCase.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/app/Task.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_20_032638_create_tasks_table.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ProjectTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
-        <option value="$PROJECT_DIR$/database/factories/TaskFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
+        <option value="$PROJECT_DIR$/database/factories/TaskFactory.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
+        <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
       </list>
     </option>
   </component>
@@ -375,10 +306,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1477" />
-    <option name="y" value="-1866" />
-    <option name="width" value="1325" />
-    <option name="height" value="1908" />
+    <option name="x" value="-1964" />
+    <option name="y" value="-1189" />
+    <option name="width" value="1876" />
+    <option name="height" value="1315" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -459,12 +390,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="taskfac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/TaskFactory.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;projecttask&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;in&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;app.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/app.scss&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;layout&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts&#10;m&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;view&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views&#10;projectc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;user&#9;null&#9;null&#10;migrat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations&#10;route&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes" />
+    <property name="SearchEverywhereHistoryKey" value="show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;projectT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;projecttask&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ProjectTasksTest.php&#10;taskfac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/TaskFactory.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;in&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;app.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/app.scss&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;layout&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts&#10;m&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;view&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views&#10;projectc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;user&#9;null&#9;null&#10;migrat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations&#10;route&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -523,18 +454,18 @@
       <workItem from="1552213521911" duration="5889000" />
       <workItem from="1552369040490" duration="1752000" />
       <workItem from="1552441065051" duration="10839000" />
-      <workItem from="1552605973142" duration="42932000" />
+      <workItem from="1552605973142" duration="49925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78403000" />
+    <option name="totallyTimeSpent" value="85396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1477" y="-1866" width="1325" height="1908" extended-state="0" />
+    <frame x="-1964" y="-1189" width="1876" height="1315" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13639906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09541985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -721,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_20_032638_create_tasks_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -735,10 +659,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="515">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/TaskFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ProjectFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -756,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ProjectTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -773,37 +704,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="-7">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="e#33#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ProjectFactory.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="630">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/TaskFactory.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="832">
+          <caret line="28" column="105" selection-start-line="28" selection-start-column="105" selection-end-line="28" selection-end-column="105" />
         </state>
       </provider>
     </entry>

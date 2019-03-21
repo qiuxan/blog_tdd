@@ -16,8 +16,20 @@
                         <h2 class="text-lg text-grey font-normal mb-3">Tasks</h2>
                         @foreach($project->tasks as $task)
                             <div class="card mb-3">{{$task->body}}</div>
+
                         @endforeach
                         {{--tasks--}}
+
+                         <div class="card mb-3">
+
+                            <form action="{{$project->path().'/tasks'}}" method="POST">
+
+                                {{csrf_field()}}
+
+                                <input name="body" class="w-full" type="text" placeholder="Add a new task">
+                            </form>
+
+                        </div>
                     </div>
                     <div>
                         <h2 class="text-lg text-grey font-normal mb-3">General Notes</h2>

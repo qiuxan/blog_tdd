@@ -4,7 +4,6 @@
            <div class="flex w-full items-end justify-between">
                <p class="text-grey text-sm font-normal">
                    <a class="text-grey text-sm font-normal no-underline" href="/projects">My Projects </a> /{{$project->title}}
-
                </p>
                <a class="button" href="/projects/create">New Project</a>
            </div>
@@ -15,20 +14,23 @@
                     <div class="mb-8">
                         <h2 class="text-lg text-grey font-normal mb-3">Tasks</h2>
                         @foreach($project->tasks as $task)
-                            <div class="card mb-3">{{$task->body}}</div>
-
+                            <div class="card mb-3">
+                                <form action="{{$project->path().'/tasks/'.$task->id}}" method="POST">
+                                    @method('PATCH')
+                                    {{csrf_field()}}
+                                    <div class="flex">
+                                        <input type="text" class="w-full" name="body" value="{{$task->body}}">
+                                        <input type="checkbox" name="completed" onchange="this.form.submit()">
+                                    </div>
+                                </form>
+                            </div>
                         @endforeach
                         {{--tasks--}}
-
                          <div class="card mb-3">
-
                             <form action="{{$project->path().'/tasks'}}" method="POST">
-
                                 {{csrf_field()}}
-
                                 <input name="body" class="w-full" type="text" placeholder="Add a new task">
                             </form>
-
                         </div>
                     </div>
                     <div>

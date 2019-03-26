@@ -15,12 +15,12 @@
                         <h2 class="text-lg text-grey font-normal mb-3">Tasks</h2>
                         @foreach($project->tasks as $task)
                             <div class="card mb-3">
-                                <form action="{{$project->path().'/tasks/'.$task->id}}" method="POST">
+                                <form action="{{$task->path()}}" method="POST">
                                     @method('PATCH')
                                     {{csrf_field()}}
                                     <div class="flex">
-                                        <input type="text" class="w-full" name="body" value="{{$task->body}}">
-                                        <input type="checkbox" name="completed" onchange="this.form.submit()">
+                                        <input type="text" class="w-full {{$task->completed? 'text-grey':''}}" name="body" value="{{$task->body}}">
+                                        <input type="checkbox" name="completed" onchange="this.form.submit()" {{$task->completed?'checked':''}}>
                                     </div>
                                 </form>
                             </div>

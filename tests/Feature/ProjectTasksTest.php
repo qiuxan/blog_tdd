@@ -60,6 +60,24 @@ class ProjectTasksTest extends TestCase
 
     }
 
+
+    /** @test */
+    public function only_the_owner_of_a_project_may_update_tasks()
+    {
+        $this->signIn();
+
+        $project=factory(Project::class)->create();
+
+        $task=$project->addTask('test task');
+
+
+        $this->patch($task->path(),['body'=>'changed task'])
+            ->assertStatus(403);
+
+        $this->assertDatabaseMissing('tasks',['body'=>'changed task']);
+
+    }
+
     /** @test */
     public function a_task_can_be_updated()
     {

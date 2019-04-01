@@ -35,16 +35,19 @@ class ProjectsController extends Controller
 
             'title'=>'required',
             'description'=>'required',
+            'notes'=>'max:255'
 
         ]);
 
-        //$attributes['owner_id']=auth()->id();
 
-        auth()->user()->projects()->create($attributes);
+
+        $project=auth()->user()->projects()->create($attributes);
         //persist
         //redirect
 
-        return redirect('/projects');
+//        return redirect('/projects');
+        return redirect($project->path());
+
     }
 
     public function show(Project $project){

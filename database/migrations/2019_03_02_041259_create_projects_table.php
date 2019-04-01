@@ -18,6 +18,7 @@ class CreateProjectsTable extends Migration
             $table->string('title');
             $table->unsignedInteger('owner_id');
             $table->text('description');
+            $table->text('notes')->nullable();
             $table->timestamps();
 
 

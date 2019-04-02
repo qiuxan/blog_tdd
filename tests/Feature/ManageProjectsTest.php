@@ -32,7 +32,7 @@ class ManageProjectsTest extends TestCase
         $this->get('/projects/create')->assertStatus(200);
         $attributes=[
             'title'=>$this->faker->sentence,
-            'description'=>$this->faker->paragraph,
+            'description'=>$this->faker->sentence,
             'notes'=>'general notes here'
 
         ];
@@ -45,7 +45,9 @@ class ManageProjectsTest extends TestCase
         $this->assertDatabaseHas('projects',$attributes);
 
         $this->get($project->path())
-            ->assertSee($attributes['title']);
+            ->assertSee($attributes['title'])
+            ->assertSee($attributes['description'])
+            ->assertSee($attributes['notes']);
 
 
 

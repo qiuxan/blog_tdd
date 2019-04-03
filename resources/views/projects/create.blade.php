@@ -12,7 +12,7 @@
             </label>
 
             <div class="control">
-                <input type="text" class="input" name="" placeholder="Title">
+                <input type="text" class="input" name="title" placeholder="Title">
             </div>
 
         </div>
@@ -20,7 +20,7 @@
             <label for="title"class="label">Description</label>
 
             <div class="control">
-                <textarea type="text" class="textarea"></textarea>
+                <textarea type="text" class="textarea" name="description" placeholder="Description"></textarea>
             </div>
 
         </div>

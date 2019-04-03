@@ -42,6 +42,7 @@
                                     class="card w-full"
                                     style="min-height:200px"
                                     placeholder="Anything Special you want"
+                                    name="notes"
                             >
                                 {{$project->notes}}
                             </textarea>

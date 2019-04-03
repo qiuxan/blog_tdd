@@ -30,13 +30,14 @@ class ProjectsController extends Controller
 
         //validate
 
+      //  dd('hehe');
+
+        //dd(request());
 
         $attributes=request()->validate([
-
-            'title'=>'required',
-            'description'=>'required',
-            'notes'=>'max:255'
-
+            'title' => 'sometimes|required',
+            'description' => 'sometimes|required',
+            'notes' => 'nullable'
         ]);
 
 
@@ -52,19 +53,27 @@ class ProjectsController extends Controller
 
     public function show(Project $project){
 
-        if(auth()->id()!=$project->owner_id){
+        $this->authorize('update',$project);
 
-            abort(403);
-        }
-
-        if(auth()->user()->isNot($project->owner)){
-
-            abort(403);
-        }
+//        if(auth()->user()->isNot($project->owner)){
+//
+//            abort(403);
+//        }
 
 
 
         return view('projects.show',compact('project'));
 
     }
+
+    public function update(Project $project){
+
+        $this->authorize('update',$project);
+
+        $project->update(request(['notes']));
+
+        return redirect($project->path());
+    }
+
+
 }

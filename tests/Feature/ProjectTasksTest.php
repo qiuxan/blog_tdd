@@ -7,6 +7,7 @@ use App\Project;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\Setup\ProjectFactory;
 
 class ProjectTasksTest extends TestCase
 {
@@ -83,14 +84,20 @@ class ProjectTasksTest extends TestCase
     {
 
         $this->withoutExceptionHandling();
-        $this->signIn();
-        $project=auth()->user()->projects()->create(
-            factory(Project::class)->raw()
-        );
 
-        $task=$project->addTask('test task');
+        $project=app(ProjectFactory::class)->ownedBy($this->signIn())->withTask(1)->create();
+       // $this->signIn();
 
-        $this->patch($project->path().'/tasks/'.$task->id,[
+
+//        $project=auth()->user()->projects()->create(
+//            factory(Project::class)->raw()
+//        );
+//
+//
+//
+//        $task=$project->addTask('test task');
+
+        $this->patch($project->path().'/tasks/'.$project->tasks[0]->id,[
             'body'=>'changed',
             'completed'=>true
 

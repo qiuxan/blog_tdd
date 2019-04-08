@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Project;
+use Facades\Tests\Setup\ProjectFactory;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -56,11 +57,13 @@ class ManageProjectsTest extends TestCase
     /** @test */
     public function a_user_can_update_a_project()
     {
-        $this->signIn();
-        $this->withoutExceptionHandling();
-        $project=factory('App\Project')->create(['owner_id'=>auth()->id()]);
+//        $this->signIn();
 
-        $this->patch($project->path(),[
+        $project=ProjectFactory::create();
+//        $this->withoutExceptionHandling();
+        //$project=factory('App\Project')->create(['owner_id'=>auth()->id()]);
+
+        $this->actingAs($project->owner)->patch($project->path(),[
                 'notes'=>'change',
             ]
         )->assertRedirect($project->path());

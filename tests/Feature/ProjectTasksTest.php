@@ -7,7 +7,7 @@ use App\Project;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Tests\Setup\ProjectFactory;
+use Facades\Tests\Setup\ProjectFactory;
 
 class ProjectTasksTest extends TestCase
 {
@@ -39,12 +39,21 @@ class ProjectTasksTest extends TestCase
     /** @test */
     public function a_task_require_a_body()
     {
-        $this->signIn();
-        $project=auth()->user()->projects()->create(
-            factory(Project::class)->raw()
-        );
+        //$this->signIn();
+
+        $project=ProjectFactory::create();
+
+//        $project=auth()->user()->projects()->create(
+//            factory(Project::class)->raw()
+//        );
+
+
         $attributes=factory('App\Task')->raw(['body'=>'']);
-        $this->post($project->path().'/tasks',$attributes)->assertSessionHasErrors('body');
+        $this->actingAs($project->owner)->post($project->path().'/tasks',$attributes)->assertSessionHasErrors('body');
+
+
+
+
     }
 
     /** @test */
@@ -53,6 +62,8 @@ class ProjectTasksTest extends TestCase
         $this->signIn();
 
         $project=factory(Project::class)->create();
+
+
 
         $this->post($project->path().'/tasks',['body'=>'test task'])
             ->assertStatus(403);
@@ -66,13 +77,10 @@ class ProjectTasksTest extends TestCase
     public function only_the_owner_of_a_project_may_update_tasks()
     {
         $this->signIn();
-
-        $project=factory(Project::class)->create();
-
-        $task=$project->addTask('test task');
+        $project= ProjectFactory::withTask(1)->create();
 
 
-        $this->patch($task->path(),['body'=>'changed task'])
+        $this->patch($project->tasks[0]->path(),['body'=>'changed task'])
             ->assertStatus(403);
 
         $this->assertDatabaseMissing('tasks',['body'=>'changed task']);
@@ -83,9 +91,12 @@ class ProjectTasksTest extends TestCase
     public function a_task_can_be_updated()
     {
 
-        $this->withoutExceptionHandling();
+//        $this->withoutExceptionHandling();
 
-        $project=app(ProjectFactory::class)->ownedBy($this->signIn())->withTask(1)->create();
+        $project= ProjectFactory::withTask(1)->create();
+
+
+
        // $this->signIn();
 
 
@@ -97,7 +108,8 @@ class ProjectTasksTest extends TestCase
 //
 //        $task=$project->addTask('test task');
 
-        $this->patch($project->path().'/tasks/'.$project->tasks[0]->id,[
+        $this->actingAs($project->owner)
+            ->patch($project->tasks->first()->path(),[
             'body'=>'changed',
             'completed'=>true
 

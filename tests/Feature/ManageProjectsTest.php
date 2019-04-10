@@ -63,11 +63,18 @@ class ManageProjectsTest extends TestCase
 //        $this->withoutExceptionHandling();
         //$project=factory('App\Project')->create(['owner_id'=>auth()->id()]);
 
-        $this->actingAs($project->owner)->patch($project->path(),[
+        $this->actingAs($project->owner)->patch($project->path(),$attribute=[
                 'notes'=>'change',
+                'title'=>'change',
+                'description'=>'change'
             ]
         )->assertRedirect($project->path());
-        $this->assertDatabaseHas('projects',['notes'=>'change']);
+
+//        dd($project->path().'/edit');
+
+        $this->get($project->path().'/edit')->assertOk();
+
+        $this->assertDatabaseHas('projects',$attribute);
     }
 
     /** @test*/
@@ -127,6 +134,7 @@ class ManageProjectsTest extends TestCase
         //$this->withoutExceptionHandling();
 
 
+        $this->get('/projects/edit')->assertRedirect('login');
         $this->get('/projects')->assertRedirect('login');
         $this->get($project->path())->assertRedirect('login');
         $this->get('/projects/create')->assertRedirect('login');

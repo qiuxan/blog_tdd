@@ -34,15 +34,7 @@ class ProjectsController extends Controller
 
         //dd(request());
 
-        $attributes=request()->validate([
-            'title' => 'sometimes|required',
-            'description' => 'sometimes|required',
-            'notes' => 'nullable'
-        ]);
-
-
-
-        $project=auth()->user()->projects()->create($attributes);
+        $project=auth()->user()->projects()->create($this->validateRequest());
         //persist
         //redirect
 
@@ -72,15 +64,21 @@ class ProjectsController extends Controller
 
         $this->authorize('update',$project);
 
-        $attributes=request()->validate([
-            'title' => 'sometimes|required',
-            'description' => 'required',
-            'notes' => 'min:3'
-        ]);
-
-        $project->update($attributes);
+        $project->update($this->validateRequest());
 
         return redirect($project->path());
+    }
+
+    /**
+     * @return array
+     */
+    public function validateRequest()
+    {
+        return request()->validate([
+            'title' => 'sometimes|required',
+            'description' => 'sometimes|required',
+            'notes' => 'nullable'
+        ]);
     }
 
 

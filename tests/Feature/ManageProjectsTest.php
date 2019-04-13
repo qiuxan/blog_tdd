@@ -151,8 +151,19 @@ class ManageProjectsTest extends TestCase
         $this->assertInstanceOf('App\User',$project->owner);
     }
 
+    /** @test */
+    public function a_user_can_update_a_projects_general_notes()
+    {
 
-    /** @test*/
+        $project=ProjectFactory::create();
+        $this->actingAs($project->owner)->patch($project->path(),$attribute=[
+                'notes'=>'change',
+            ]
+        )->assertRedirect($project->path());
+
+        $this->assertDatabaseHas('projects',$attribute);
+    }
+//    /** @test*/
 
 //    public function a_user_can_view_their_project(){
 //

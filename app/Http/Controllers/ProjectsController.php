@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UpdateProjectRequest;
 use Illuminate\Http\Request;
 
 use App\Project;
@@ -60,26 +61,27 @@ class ProjectsController extends Controller
     {
         return view('projects.edit', compact('project'));
     }
-    public function update(Project $project){
 
-        $this->authorize('update',$project);
 
-        $project->update($this->validateRequest());
+    public function update(UpdateProjectRequest $request){
 
-        return redirect($project->path());
+
+//        $project->update($request->validated());
+        $request->save();
+        return redirect($request->save()->path());
     }
 
-    /**
-     * @return array
-     */
-    public function validateRequest()
-    {
-        return request()->validate([
-            'title' => 'sometimes|required',
-            'description' => 'sometimes|required',
-            'notes' => 'nullable'
-        ]);
-    }
+//    /**
+//     * @return array
+//     */
+//    public function validateRequest()
+//    {
+//        return request()->validate([
+//            'title' => 'sometimes|required',
+//            'description' => 'sometimes|required',
+//            'notes' => 'nullable'
+//        ]);
+//    }
 
 
 }

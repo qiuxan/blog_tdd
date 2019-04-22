@@ -1,6 +1,4 @@
-<?php
-
-namespace Tests\Feature;
+<?php namespace Tests\Feature;
 
 use Facades\Tests\Setup\ProjectFactory;
 use Tests\TestCase;
@@ -14,7 +12,7 @@ class ActivityFeedTest extends TestCase
 
 
     /** @test */
-    public function create_a_project_generate_activity()
+    public function create_a_project_records_activity()
     {
        $project=ProjectFactory::create();
 
@@ -23,7 +21,7 @@ class ActivityFeedTest extends TestCase
     }
 
     /** @test */
-    public function updating_a_project_generate_an_activity()
+    public function updating_a_project_records_an_activity()
     {
 
         $project=ProjectFactory::create();
@@ -33,5 +31,32 @@ class ActivityFeedTest extends TestCase
         $this->assertCount(2,$project->activity);
 
         $this->assertEquals('updated', $project->activity->last()->description);
+    }
+
+    /** @test */
+    public function creating_a_new_task_records_project_activity()
+    {
+        $project=ProjectFactory::create();
+
+        $project->addTask('some task');
+
+
+        $this->assertEquals('created_task', $project->activity->last()->description);
+        $this->assertCount(2,$project->activity);
+    }
+
+    /** @test */
+    public function completing_a_new_task_records_project_activity()
+    {
+        $project=ProjectFactory::withTask(1)->create();
+
+        $this->actingAs($project->owner)->patch($project->tasks[0]->path(),[
+            'body'=>'foobar',
+            'completed'=>true
+        ]);
+
+
+        $this->assertEquals('completed_task', $project->activity->last()->description);
+        $this->assertCount(3,$project->activity);
     }
 }

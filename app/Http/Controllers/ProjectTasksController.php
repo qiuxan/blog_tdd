@@ -19,6 +19,9 @@ class ProjectTasksController extends Controller
         $project->addTask(request('body'));
         return redirect($project->path());
     }
+
+
+
     public function update(Project$project, Task $task)
     {
         $this->authorize('update',$task->project);
@@ -27,10 +30,22 @@ class ProjectTasksController extends Controller
 //        {
 //            abort(403);
 //        }
-        $task->update([
-            'body'=>request('body'),
-            'completed'=>request()->has('completed')
-        ]);
+
+
+        $task->update(['body' => request('body')]);
+        if (request()->has('completed')) {
+            $task->complete();
+        }
+
+
+//        $task->update([
+//            'body'=>request('body'),
+//            'completed'=>request()->has('completed')
+//        ]);
+
+
         return redirect($project->path());
     }
+
+
 }

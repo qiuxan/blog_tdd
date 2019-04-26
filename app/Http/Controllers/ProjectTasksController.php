@@ -28,9 +28,11 @@ class ProjectTasksController extends Controller
 
         $task->update(request()->validate(['body' => 'required']));
 
-        $method = request('completed') ? 'complete' : 'incomplete';
+//        $method = request('completed') ? 'complete' : 'incomplete';
+//
+//        $task->$method();
 
-        $task->$method();
+        request('completed')? $task->complete():$task->incomplete();
 
 //        $task->update([
 //            'body'=>request('body'),

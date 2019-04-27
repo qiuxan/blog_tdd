@@ -78,6 +78,9 @@ class RecordActivityTest extends TestCase
             'body'=>'foobar',
             'completed'=>false
         ]);
-        $this->assertCount(4,$project->fresh()->activity);
+        $project->refresh();
+        $this->assertCount(4,$project->activity);
+
+        $this->assertEquals('incompleted_task', $project->activity->last()->description);
     }
 }

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ActivityFeedTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RecordActivityTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/RecordActivityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RecordActivityTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
           <entry key="dummy" value="24" />
           <entry key="env" value="21" />
           <entry key="js" value="80" />
-          <entry key="php" value="15978" />
+          <entry key="php" value="16095" />
           <entry key="scss" value="174" />
           <entry key="xml" value="54" />
         </counts>
@@ -98,7 +96,7 @@
           <entry key=".env file" value="21" />
           <entry key="Blade" value="4683" />
           <entry key="JavaScript" value="80" />
-          <entry key="PHP" value="11295" />
+          <entry key="PHP" value="11412" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="174" />
           <entry key="XML" value="54" />
@@ -119,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/RecordActivityTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1085">
-              <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+            <state relative-caret-position="991">
+              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -510,12 +508,12 @@
       <workItem from="1555476493731" duration="12441000" />
       <workItem from="1556181651769" duration="1843000" />
       <workItem from="1556229461459" duration="596000" />
-      <workItem from="1556237559338" duration="2308000" />
+      <workItem from="1556237559338" duration="2962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166126000" />
+    <option name="totallyTimeSpent" value="166780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1296" y="55" width="1232" height="1342" extended-state="0" />
@@ -884,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/RecordActivityTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        <state relative-caret-position="991">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
         </state>
       </provider>
     </entry>

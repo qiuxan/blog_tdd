@@ -5,7 +5,7 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class RecordActivityTest extends TestCase
+class TriggerActivityTest extends TestCase
 {
 
     use RefreshDatabase;
@@ -83,4 +83,14 @@ class RecordActivityTest extends TestCase
 
         $this->assertEquals('incompleted_task', $project->activity->last()->description);
     }
+
+    /** @test */
+    public function delete_a_task()
+    {
+        $project = ProjectFactory::withTask(1)->create();
+        $project->tasks[0]->delete();
+        $this->assertCount(3, $project->activity);
+
+    }
+
 }

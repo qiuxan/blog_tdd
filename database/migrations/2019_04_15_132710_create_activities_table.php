@@ -17,6 +17,7 @@ class CreateActivitiesTable extends Migration
             $table->increments('id');
 
             $table->unsignedInteger('project_id');
+            $table->nullableMorphs('subject');
 
             $table->timestamps();
             $table->string('description');

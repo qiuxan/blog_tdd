@@ -74,14 +74,14 @@ class ProjectsController extends Controller
 //    /**
 //     * @return array
 //     */
-//    public function validateRequest()
-//    {
-//        return request()->validate([
-//            'title' => 'sometimes|required',
-//            'description' => 'sometimes|required',
-//            'notes' => 'nullable'
-//        ]);
-//    }
+    public function validateRequest()
+    {
+        return request()->validate([
+            'title' => 'sometimes|required',
+            'description' => 'sometimes|required',
+            'notes' => 'nullable'
+        ]);
+    }
 
 
 }

@@ -43,9 +43,7 @@
                                     style="min-height:200px"
                                     placeholder="Anything Special you want"
                                     name="notes"
-                            >
-                                {{$project->notes}}
-                            </textarea>
+                            >{{$project->notes}}</textarea>
                             <button type="submit" class="button">Save</button>
                             @method('PATCH')
                         </form>

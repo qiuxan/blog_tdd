@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+    use RecordsActivity;
+
     protected $guarded =[];
     public $old=[];
     public function path(){
@@ -31,20 +33,6 @@ class Project extends Model
     }
     public function activity(){
         return $this->hasMany(Activity::class)->latest();
-    }
-
-    public function recordActivity($description)
-    {
-//        var_dump(
-//
-//            array_diff($this->toArray(),$this->old)
-//
-//        );
-        $this->activity()->create([
-            'description'=>$description,
-
-            'changes'=>$this->activityChanges()
-        ]);
     }
 
     protected function activityChanges()

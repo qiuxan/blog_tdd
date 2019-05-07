@@ -69,29 +69,50 @@ class TriggerActivityTest extends TestCase
 
         });
     }
-
     /** @test */
-    public function completing_a_task()
+    function completing_a_task()
     {
-        $project=ProjectFactory::withTask(1)->create();
-
-        $this->actingAs($project->owner)->patch($project->tasks[0]->path(),[
-            'body'=>'foobar',
-            'completed'=>true
-        ]);
-
-
-        $this->assertCount(3,$project->activity);
-
-
+        $project = ProjectFactory::withTask(1)->create();
+        $this->actingAs($project->owner)
+            ->patch($project->tasks[0]->path(), [
+                'body' => 'foobar',
+                'completed' => true
+            ]);
+        $this->assertCount(3, $project->activity);
         tap($project->activity->last(), function ($activity) {
-
-
             $this->assertEquals('completed_task', $activity->description);
             $this->assertInstanceOf(Task::class, $activity->subject);
-
         });
     }
+
+
+//    /** @test */
+//    public function complete_a_task()
+//    {
+//        $project=ProjectFactory::withTask(1)->create();
+//
+//
+//
+//        $this->actingAs($project->owner)->patch($project->tasks[0]->path(),[
+//            'body'=>'foobar',
+//            'completed'=>true
+//        ]);
+//
+//
+//
+//
+//
+//        $this->assertCount(3,$project->activity);
+//
+//
+//        tap($project->activity->last(), function ($activity) {
+//
+//
+//            $this->assertEquals('completed_task', $activity->description);
+//            $this->assertInstanceOf(Task::class, $activity->subject);
+//
+//        });
+//    }
 
     /** @test */
     public function incompleting_a_task()

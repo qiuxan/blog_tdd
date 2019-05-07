@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Task extends Model
 {
     use RecordsActivity;
-    protected $guarded=[];
 
+    protected $guarded=[];
     protected $casts=[
         'completed'=>'boolean'
         ];
@@ -38,22 +38,9 @@ class Task extends Model
         return "/projects/{$this->project->id}/tasks/{$this->id}";
     }
 
-    public function activity(){
-        return $this->morphMany(Activity::class,'subject')->latest();
-    }
 
-    protected function activityChanges()
-    {
-        return null;
 
-        if ($this->wasChanged())
-        {
-            return [
-                'before'=>array_except(array_diff($this->old,$this->toArray()),'updated_at'),
-                'after'=>array_except($this->getChanges(),'updated_at'),
-            ];
-        }
-    }
+
 
 
 }

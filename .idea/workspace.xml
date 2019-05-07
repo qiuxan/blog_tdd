@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/RecordsActivity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/ProjectObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ProjectObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TaskObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TaskObserver.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/RecordsActivity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RecordsActivity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,25 +34,6 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/Task.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="176">
-                    <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1338840468">
       <usages-collector id="statistics.lifecycle.project">
@@ -62,10 +47,10 @@
     <session id="766814311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -74,7 +59,7 @@
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,7 +69,7 @@
           <entry key="js" value="4" />
           <entry key="json" value="3" />
           <entry key="master" value="1" />
-          <entry key="php" value="180" />
+          <entry key="php" value="197" />
           <entry key="scss" value="3" />
           <entry key="svg" value="5" />
           <entry key="vagrant:" value="1" />
@@ -94,10 +79,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="Blade" value="47" />
+          <entry key="Blade" value="48" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="133" />
+          <entry key="PHP" value="149" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="3" />
           <entry key="SVG" value="5" />
@@ -109,7 +94,7 @@
           <entry key="dummy" value="24" />
           <entry key="env" value="21" />
           <entry key="js" value="80" />
-          <entry key="php" value="18342" />
+          <entry key="php" value="18602" />
           <entry key="scss" value="174" />
           <entry key="xml" value="54" />
         </counts>
@@ -119,7 +104,7 @@
           <entry key=".env file" value="21" />
           <entry key="Blade" value="5350" />
           <entry key="JavaScript" value="80" />
-          <entry key="PHP" value="12992" />
+          <entry key="PHP" value="13252" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="174" />
           <entry key="XML" value="54" />
@@ -138,20 +123,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            <state relative-caret-position="308">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Observers/ProjectObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="186">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Observers/TaskObserver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -178,7 +190,6 @@
       <find>title</find>
       <find>view</find>
       <find>have</find>
-      <find>updat</find>
       <find>cannot</find>
       <find>guest</find>
       <find>New</find>
@@ -193,7 +204,11 @@
       <find>$projects</find>
       <find>validateRequest</find>
       <find>changes</find>
+      <find>updat</find>
       <find>activityChanges</find>
+      <find>save</find>
+      <find>return</find>
+      <find>created</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,14 +247,12 @@
         <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/TaskTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ActivityFeedTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/RecordActivityTest.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/created.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/updated .blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/card.blade.php" />
-        <option value="$PROJECT_DIR$/app/Observers/TaskObserver.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" />
@@ -247,11 +260,14 @@
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_15_132710_create_activities_table.php" />
         <option value="$PROJECT_DIR$/app/Activity.php" />
-        <option value="$PROJECT_DIR$/app/Observers/ProjectObserver.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" />
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/app/Task.php" />
+        <option value="$PROJECT_DIR$/app/Observers/ProjectObserver.php" />
+        <option value="$PROJECT_DIR$/app/Observers/TaskObserver.php" />
+        <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
       </list>
     </option>
   </component>
@@ -363,58 +379,16 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1296" />
-    <option name="y" value="54" />
-    <option name="width" value="1232" />
-    <option name="height" value="814" />
+    <option name="x" value="399" />
+    <option name="y" value="255" />
+    <option name="width" value="1616" />
+    <option name="height" value="598" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -451,10 +425,32 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Observers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;mpt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectO&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;PROJE&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;create_ac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;tri&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;trig&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;creat_a_&#9;null&#9;null&#10;projec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;cat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;creat_a&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;asp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;ProjectO&#9;null&#9;null&#10;ob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;ptc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;task&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Task.php&#10;tt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/TaskTest.php&#10;only_the_owner_of_a_project_may_update_tasks&#9;null&#9;null&#10;withTask&#9;null&#9;null&#10;aft&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ActivityFeedTest.php&#10;PF&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;acti&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ActivityFeedTest.php&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;Projectste&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;form&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/form.blade.php&#10;test&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;crea&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/create.blade.php&#10;projectC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;update_&#9;null&#9;null&#10;projecttask&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ProjectTasksTest.php&#10;auths&#9;null&#9;null&#10;ma&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectsc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;creat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_03_02_041259_create_projects_table.php&#10;PROJECTSC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ProjectTasksTest.php&#10;us&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;projects&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;task co&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;create tas&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_03_20_032638_create_tasks_table.php&#10;taskC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;projectT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;taskfac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/TaskFactory.php&#10;Project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php" />
+    <property name="SearchEverywhereHistoryKey" value="tri&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;task&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Task.php&#10;recordActivity&#9;null&#9;null&#10;ProjectTasksController&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;created&#9;null&#9;null&#10;completing_a_task&#9;null&#9;null&#10;getOriginal&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;taskob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/TaskObserver.php&#10;mpt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectO&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;PROJE&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;create_ac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;trig&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;creat_a_&#9;null&#9;null&#10;projec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;cat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;creat_a&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;asp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;ProjectO&#9;null&#9;null&#10;ob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;ptc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;tt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/TaskTest.php&#10;only_the_owner_of_a_project_may_update_tasks&#9;null&#9;null&#10;withTask&#9;null&#9;null&#10;aft&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ActivityFeedTest.php&#10;PF&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;acti&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ActivityFeedTest.php&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;Projectste&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;form&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/form.blade.php&#10;test&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;crea&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/create.blade.php&#10;projectC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;update_&#9;null&#9;null&#10;projecttask&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ProjectTasksTest.php&#10;auths&#9;null&#9;null&#10;ma&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectsc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;creat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_03_02_041259_create_projects_table.php&#10;PROJECTSC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ProjectTasksTest.php&#10;us&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;projects&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -462,11 +458,11 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/projects/activity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/projects/activity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -535,18 +531,19 @@
       <workItem from="1556775858370" duration="5052000" />
       <workItem from="1556948766651" duration="596000" />
       <workItem from="1557059531139" duration="187000" />
-      <workItem from="1557059984316" duration="2914000" />
+      <workItem from="1557059984316" duration="8021000" />
+      <workItem from="1557188575442" duration="5993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189942000" />
+    <option name="totallyTimeSpent" value="201042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1296" y="54" width="1232" height="814" extended-state="0" />
+    <frame x="399" y="255" width="1616" height="598" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.21092437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.16200763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5045045" side_tool="true" weight="0.0" />
       <window_info id="Favorites" order="3" sideWeight="0.5028665" side_tool="true" weight="0.24537815" />
@@ -599,13 +596,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/svg/403.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -762,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Setup/ProjectFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -818,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/projects/activity/completed_task.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -832,24 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1130">
           <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Observers/TaskObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -888,23 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#32#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Observers/ProjectObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Activity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -912,24 +857,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Project.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="176">
+          <caret line="970" column="20" selection-start-line="970" selection-start-column="20" selection-end-line="970" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="770">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#38#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding>
+            <element signature="e#32#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Observers/TaskObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Task.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="598">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Observers/ProjectObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>

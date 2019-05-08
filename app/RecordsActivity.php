@@ -16,32 +16,35 @@ trait RecordsActivity
 
     public static function bootRecordsActivity(){
 
-        static::updating(function ($model){
-            $model->oldAttributes=$model->getOriginal();
-
-        });
-
-
-        if (isset(static::$recordableEvens)){
-            $recordableEvens=static::$recordableEvens;
-        }else{
-            $recordableEvens=['created','updated','deleted'];
-
-        }
-
-
-        foreach ($recordableEvens as $event){
+        foreach (self::recordableEvens() as $event){
             static::$event(function ($model) use ($event){
-                if(class_basename($model)!=='Project'){
-                    $event="{$event}_".strtolower(class_basename($model));//created_task
 
-                    //dd($event);
-                }
-                $model->recordActivity($event);
-
-
+                $model->recordActivity($model->activityDescription($event));
             });
+
+            if ($event === 'updated') {
+                static::updating(function ($model) {
+                    $model->oldAttributes = $model->getOriginal();
+                });
+            }
+
         }
+    }
+
+    protected function activityDescription($description){
+
+        return "{$description}_".strtolower(class_basename($this));//created_task
+
+    }
+    /**
+     * @return array
+     */
+    public static function recordableEvens(): array
+    {
+        if (isset(static::$recordableEvens)) {
+            return static::$recordableEvens;
+        }
+            return ['created', 'updated', 'deleted'];
     }
 
     public function recordActivity($description)

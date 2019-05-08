@@ -20,6 +20,28 @@ trait RecordsActivity
             $model->oldAttributes=$model->getOriginal();
 
         });
+
+
+        if (isset(static::$recordableEvens)){
+            $recordableEvens=static::$recordableEvens;
+        }else{
+            $recordableEvens=['created','updated','deleted'];
+
+        }
+
+
+        foreach ($recordableEvens as $event){
+            static::$event(function ($model) use ($event){
+                if(class_basename($model)!=='Project'){
+                    $event="{$event}_".strtolower(class_basename($model));//created_task
+
+                    //dd($event);
+                }
+                $model->recordActivity($event);
+
+
+            });
+        }
     }
 
     public function recordActivity($description)

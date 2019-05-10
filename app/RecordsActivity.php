@@ -55,6 +55,9 @@ trait RecordsActivity
 //
 //        );
         $this->activity()->create([
+
+            'user_id'=>$this->owner_id,
+
             'description' => $description,
 
             'changes' => $this->activityChanges(),

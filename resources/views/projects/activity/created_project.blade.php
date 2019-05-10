@@ -1,1 +1,1 @@
-Created the Project
+{{ $activity->user->name }} created the project

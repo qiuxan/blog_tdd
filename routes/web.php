@@ -29,6 +29,9 @@ Route::group(['middleware'=>'auth'],function (){
 
     Route::get('/projects/create','ProjectsController@create');
 
+    Route::delete('/projects/{project}','ProjectsController@destroy');
+
+
     Route::get('/projects/{project}/edit','ProjectsController@edit');
 
     Route::get('/projects/{project}','ProjectsController@show');

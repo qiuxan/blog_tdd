@@ -44,7 +44,7 @@ trait RecordsActivity
         if (isset(static::$recordableEvens)) {
             return static::$recordableEvens;
         }
-            return ['created', 'updated', 'deleted'];
+            return ['created', 'updated' ];
     }
 
     public function recordActivity($description)

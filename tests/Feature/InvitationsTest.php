@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\User;
 use Facades\Tests\Setup\ProjectFactory;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -19,12 +20,17 @@ class InvitationsTest extends TestCase
         //given I have a project
 
 
-        $project->invite($newUser=factory(\App\User::class)->create());
+        $project->invite($newUser = factory(User::class)->create());
+
         //and the owner of that project invites another user
 
        $this->signIn($newUser);
 
+       $this->post(action('ProjectTasksController@store', $project), $task = ['body' => 'Foo task']);
+
 
         // then that new user will have permission to add tasks
+
+        $this->assertDatabaseHas('tasks',$task);
     }
 }

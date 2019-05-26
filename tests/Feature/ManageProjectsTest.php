@@ -192,6 +192,15 @@ class ManageProjectsTest extends TestCase
             ->assertRedirect('/projects');
         $this->assertDatabaseMissing('projects',$project->only('id'));
 
+    }
+
+    /** @test */
+    public function a_user_can_see_all_projects_they_involved()
+    {
+
+            $project=tap(ProjectFactory::create())->invite($this->signIn());
+
+            $this->get('/projects')->assertSee($project->title);
 
 
     }

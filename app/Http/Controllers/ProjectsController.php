@@ -14,7 +14,7 @@ class ProjectsController extends Controller
 
 //        $projects=Project::all();
 
-        $projects=auth()->user()->projects;
+        $projects=auth()->user()->accseeibleProjects();
 
         return view('projects.index',compact('projects'));
 

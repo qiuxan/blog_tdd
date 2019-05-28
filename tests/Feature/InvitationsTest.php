@@ -15,7 +15,7 @@ class InvitationsTest extends TestCase
     /** @test */
     public function non_owner_cannot_invite_users()
     {
-        $this->withoutExceptionHandling();
+//        $this->withoutExceptionHandling();
         $this->actingAs(factory(User::class)->create())
             ->post(ProjectFactory::create()->path().'/invitations')
             ->assertStatus(403);
@@ -48,7 +48,8 @@ class InvitationsTest extends TestCase
 
         $this->actingAs($project->owner)->post($project->path().'/invitations',[
             'email' => $userToInvite->email
-        ]);
+        ])
+        ->assertRedirect($project->path());
 
         $this->assertTrue($project->members->contains($userToInvite));
     }

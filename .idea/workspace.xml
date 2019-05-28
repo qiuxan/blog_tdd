@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <session id="766814311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
@@ -66,7 +65,7 @@
           <entry key="js" value="4" />
           <entry key="json" value="4" />
           <entry key="master" value="1" />
-          <entry key="php" value="236" />
+          <entry key="php" value="239" />
           <entry key="scss" value="3" />
           <entry key="svg" value="5" />
           <entry key="vagrant:" value="1" />
@@ -79,7 +78,7 @@
           <entry key="Blade" value="59" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="177" />
+          <entry key="PHP" value="180" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="3" />
           <entry key="SVG" value="5" />
@@ -92,7 +91,7 @@
           <entry key="env" value="21" />
           <entry key="js" value="80" />
           <entry key="json" value="2" />
-          <entry key="php" value="22333" />
+          <entry key="php" value="23255" />
           <entry key="scss" value="174" />
           <entry key="xml" value="54" />
         </counts>
@@ -103,7 +102,7 @@
           <entry key="Blade" value="5884" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="80" />
-          <entry key="PHP" value="16449" />
+          <entry key="PHP" value="17371" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="174" />
           <entry key="XML" value="54" />
@@ -123,10 +122,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/InvitationsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="252">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="e#33#46#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,26 +136,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectInvitationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="43" column="9" selection-start-line="40" selection-start-column="1" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_20_032638_create_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_02_041259_create_projects_table.php" />
@@ -243,12 +238,10 @@
         <option value="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ActivityTest.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/card.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_22_120114_create_project_members_table.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ProjectTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" />
         <option value="$PROJECT_DIR$/app/Policies/ProjectPolicy.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
@@ -258,6 +251,9 @@
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectInvitationController.php" />
       </list>
     </option>
   </component>
@@ -369,10 +365,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="113" />
-    <option name="width" value="1374" />
-    <option name="height" value="585" />
+    <option name="x" value="1296" />
+    <option name="y" value="56" />
+    <option name="width" value="1232" />
+    <option name="height" value="1316" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -434,7 +430,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;car&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;project cont&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;up&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/activity/updated_project.blade.php&#10;reco&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;create&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;activityTest&#9;null&#9;null&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;tr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;class_basename&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;tri&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;task&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Task.php&#10;recordActivity&#9;null&#9;null&#10;ProjectTasksController&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;created&#9;null&#9;null&#10;completing_a_task&#9;null&#9;null&#10;getOriginal&#9;null&#9;null&#10;taskob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/TaskObserver.php&#10;mpt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectO&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;PROJE&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;create_ac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;trig&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;creat_a_&#9;null&#9;null&#10;projec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;cat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;creat_a&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;asp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;ProjectO&#9;null&#9;null&#10;ob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;ptc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;tt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/TaskTest.php" />
+    <property name="SearchEverywhereHistoryKey" value="PIC&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;car&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;project cont&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;up&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/activity/updated_project.blade.php&#10;reco&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;create&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;activityTest&#9;null&#9;null&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;tr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;class_basename&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;tri&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;task&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Task.php&#10;recordActivity&#9;null&#9;null&#10;ProjectTasksController&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectTasksController.php&#10;created&#9;null&#9;null&#10;completing_a_task&#9;null&#9;null&#10;getOriginal&#9;null&#9;null&#10;taskob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/TaskObserver.php&#10;mpt&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;projectO&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php&#10;PROJE&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;create_ac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;trig&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;creat_a_&#9;null&#9;null&#10;projec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;cat&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;creat_a&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;asp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Providers/AppServiceProvider.php&#10;ProjectO&#9;null&#9;null&#10;ob&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Observers/ProjectObserver.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -519,12 +515,12 @@
       <workItem from="1557188575442" duration="18829000" />
       <workItem from="1557625240445" duration="598000" />
       <workItem from="1557667258983" duration="6006000" />
-      <workItem from="1558394346684" duration="17328000" />
+      <workItem from="1558394346684" duration="26582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237810000" />
+    <option name="totallyTimeSpent" value="247064000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -536,10 +532,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="113" width="1374" height="585" extended-state="0" />
-    <editor active="true" />
+    <frame x="1296" y="56" width="1232" height="1316" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.3295796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5045045" side_tool="true" weight="0.0" />
       <window_info id="Favorites" order="3" sideWeight="0.5028665" side_tool="true" weight="0.24537815" />
@@ -592,13 +587,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_20_032638_create_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ProjectFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -849,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/InvitationsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#33#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
@@ -917,16 +895,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="329">
+          <caret line="46" column="18" selection-start-line="43" selection-start-column="2" selection-end-line="46" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="308">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
@@ -938,10 +916,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/InvitationsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="43" column="9" selection-start-line="40" selection-start-column="1" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#33#46#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectInvitationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

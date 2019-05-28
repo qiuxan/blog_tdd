@@ -13,7 +13,48 @@ class InvitationsTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function a_project_can_invited_a_user()
+    public function non_owner_cannot_invite_users()
+    {
+        $this->withoutExceptionHandling();
+        $this->actingAs(factory(User::class)->create())
+            ->post(ProjectFactory::create()->path().'/invitations')
+            ->assertStatus(403);
+
+    }
+
+    /** @test */
+    public function the_invited_email_must_be_a_valid_app_account()
+    {
+        $project=ProjectFactory::create();
+        $this->actingAs($project->owner)->post($project->path().'/invitations',[
+            'email' =>'wronguser@gmail.com'
+        ])->assertSessionHasErrors([
+            'email'=>'The Invited User Must Have An Account!'
+        ]);
+
+
+
+    }
+
+    /** @test */
+    public function a_project_can_invite_a_user()
+    {
+
+        $this->withoutExceptionHandling();
+
+        $project=ProjectFactory::create();
+
+        $userToInvite=factory(User::class)->create();
+
+        $this->actingAs($project->owner)->post($project->path().'/invitations',[
+            'email' => $userToInvite->email
+        ]);
+
+        $this->assertTrue($project->members->contains($userToInvite));
+    }
+
+    /** @test */
+    public function invited_users_can_update_project_details()
     {
         $project=ProjectFactory::create();
 
@@ -33,4 +74,6 @@ class InvitationsTest extends TestCase
 
         $this->assertDatabaseHas('tasks',$task);
     }
+
+
 }

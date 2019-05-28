@@ -18,7 +18,7 @@ Route::get('/', function () {
 
 Route::group(['middleware'=>'auth'],function (){
 
-
+    Route::post('projects/{project}/invitations','ProjectInvitationController@store');
 
     Route::post('/projects/{project}/tasks','ProjectTasksController@store');
 

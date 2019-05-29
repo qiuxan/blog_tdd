@@ -23,36 +23,36 @@ class ManageProjectsTest extends TestCase
 //        $response->assertStatus(200);
 //    }
 
-//    /** @test */
-//    public function a_user_can_create_a_project()
-//    {
-////        $this->actingAs(factory('App\User')->create());
-//        $this->signIn();
-//        $this->withoutExceptionHandling();
-//
-//        $this->get('/projects/create')->assertStatus(200);
-//        $attributes=[
-//            'title'=>$this->faker->sentence,
-//            'description'=>$this->faker->sentence,
-//            'notes'=>'general notes here'
-//
-//        ];
-//        $response=$this->post('/projects',$attributes);
-//        $project=Project::where($attributes)->first();
-//
-//        $response->assertRedirect($project->path());
-////        $this->post('/projects',$attributes)->assertRedirect('/projects');
-//
-//        $this->assertDatabaseHas('projects',$attributes);
-//
-//        $this->get($project->path())
-//            ->assertSee($attributes['title'])
-//            ->assertSee($attributes['description'])
-//            ->assertSee($attributes['notes']);
-//
-//
-//
-//    }
+    /** @test */
+    public function a_user_can_create_a_project()
+    {
+//        $this->actingAs(factory('App\User')->create());
+        $this->signIn();
+        $this->withoutExceptionHandling();
+
+        $this->get('/projects/create')->assertStatus(200);
+        $attributes=[
+            'title'=>$this->faker->sentence,
+            'description'=>$this->faker->sentence,
+            'notes'=>'general notes here'
+
+        ];
+        $response=$this->post('/projects',$attributes);
+        $project=Project::where($attributes)->first();
+
+        $response->assertRedirect($project->path());
+//        $this->post('/projects',$attributes)->assertRedirect('/projects');
+
+        $this->assertDatabaseHas('projects',$attributes);
+
+        $this->get($project->path())
+            ->assertSee($attributes['title'])
+            ->assertSee($attributes['description'])
+            ->assertSee($attributes['notes']);
+
+
+
+    }
 
     /** @test */
     public function a_user_can_update_a_project()

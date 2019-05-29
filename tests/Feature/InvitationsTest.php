@@ -12,13 +12,30 @@ class InvitationsTest extends TestCase
 {
     use RefreshDatabase;
 
+
+
     /** @test */
     public function non_owner_cannot_invite_users()
     {
 //        $this->withoutExceptionHandling();
-        $this->actingAs(factory(User::class)->create())
-            ->post(ProjectFactory::create()->path().'/invitations')
-            ->assertStatus(403);
+
+        $project=ProjectFactory::create();
+
+        $user=factory(User::class)->create();
+
+        $assertInvitationForbidden=function () use ($user,$project){
+
+            $this->actingAs($user)
+                ->post($project->path().'/invitations')
+                ->assertStatus(403);
+        };
+
+        $assertInvitationForbidden();
+
+        $project->invite($user);
+
+        $assertInvitationForbidden();
+
 
     }
 
@@ -30,7 +47,7 @@ class InvitationsTest extends TestCase
             'email' =>'wronguser@gmail.com'
         ])->assertSessionHasErrors([
             'email'=>'The Invited User Must Have An Account!'
-        ]);
+        ],null,'invitations');
 
 
 

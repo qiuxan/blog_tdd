@@ -364,7 +364,13 @@ module.exports = {
   |
   */
 
-  backgroundColors: colors,
+  // backgroundColors: colors,
+    backgroundColors: {
+        page: 'var(--page-background-color)',
+        card: 'var(--card-background-color)',
+        button: 'var(--button-background-color)',
+        header: 'var(--header-background-color)'
+    },
 
 
   /*

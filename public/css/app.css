@@ -455,7 +455,7 @@ ul {
 *::after {
   border-width: 0;
   border-style: solid;
-  border-color: #f5f6f9;
+  border-color: var(--text-default-color);
 }
 
 /**
@@ -589,6 +589,7 @@ table {
   border-radius: .5rem;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   padding: 1.25rem;
+  color: var(--text-default-color);
 }
 
 /**
@@ -4086,6 +4087,10 @@ table {
   color: transparent;
 }
 
+.text-default {
+  color: var(--text-default-color);
+}
+
 .text-black {
   color: #22292f;
 }
@@ -4378,6 +4383,10 @@ table {
   color: transparent;
 }
 
+.hover\:text-default:hover {
+  color: var(--text-default-color);
+}
+
 .hover\:text-black:hover {
   color: #22292f;
 }
@@ -4668,6 +4677,10 @@ table {
 
 .focus\:text-transparent:focus {
   color: transparent;
+}
+
+.focus\:text-default:focus {
+  color: var(--text-default-color);
 }
 
 .focus\:text-black:focus {
@@ -5383,10 +5396,29 @@ table {
  * @import "utilities/skew-transforms";
  */
 
-:root {
-  --page-background-color: red;
+.theme-light {
+  --page-background-color: #f5f6f9;
   --card-background-color: white;
-  --button-background-color: blue;
+  --button-background-color: #47cdff;
+  --header-background-color: white;
+  --text-default-color: #222;
+  --text-accent-color: #47cdff;
+  --text-accent-light-color: #8ae2fe;
+  --text-muted-color: rgba(0, 0, 0, .3);
+  --text-muted-light-color: rgba(255, 255, 255, .1);
+  --text-muted-light-color: #e1e6e8;
+}
+
+.theme-dark {
+  --page-background-color: #17181e;
+  --card-background-color: #1f2027;
+  --button-background-color: #59b6f9;
+  --header-background-color: #1f2027;
+  --text-default-color: #fff;
+  --text-muted-color: rgba(255, 255, 255, .5);
+  --text-muted-light-color: rgba(255, 255, 255, .3);
+  --text-accent-color: #47cdff;
+  --text-accent-light-color: #8ae2fe;
 }
 
 @media (min-width: 576px) {
@@ -8852,6 +8884,10 @@ table {
     color: transparent;
   }
 
+  .sm\:text-default {
+    color: var(--text-default-color);
+  }
+
   .sm\:text-black {
     color: #22292f;
   }
@@ -9144,6 +9180,10 @@ table {
     color: transparent;
   }
 
+  .sm\:hover\:text-default:hover {
+    color: var(--text-default-color);
+  }
+
   .sm\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -9434,6 +9474,10 @@ table {
 
   .sm\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .sm\:focus\:text-default:focus {
+    color: var(--text-default-color);
   }
 
   .sm\:focus\:text-black:focus {
@@ -13598,6 +13642,10 @@ table {
     color: transparent;
   }
 
+  .md\:text-default {
+    color: var(--text-default-color);
+  }
+
   .md\:text-black {
     color: #22292f;
   }
@@ -13890,6 +13938,10 @@ table {
     color: transparent;
   }
 
+  .md\:hover\:text-default:hover {
+    color: var(--text-default-color);
+  }
+
   .md\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -14180,6 +14232,10 @@ table {
 
   .md\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .md\:focus\:text-default:focus {
+    color: var(--text-default-color);
   }
 
   .md\:focus\:text-black:focus {
@@ -18344,6 +18400,10 @@ table {
     color: transparent;
   }
 
+  .lg\:text-default {
+    color: var(--text-default-color);
+  }
+
   .lg\:text-black {
     color: #22292f;
   }
@@ -18636,6 +18696,10 @@ table {
     color: transparent;
   }
 
+  .lg\:hover\:text-default:hover {
+    color: var(--text-default-color);
+  }
+
   .lg\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -18926,6 +18990,10 @@ table {
 
   .lg\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .lg\:focus\:text-default:focus {
+    color: var(--text-default-color);
   }
 
   .lg\:focus\:text-black:focus {
@@ -23090,6 +23158,10 @@ table {
     color: transparent;
   }
 
+  .xl\:text-default {
+    color: var(--text-default-color);
+  }
+
   .xl\:text-black {
     color: #22292f;
   }
@@ -23382,6 +23454,10 @@ table {
     color: transparent;
   }
 
+  .xl\:hover\:text-default:hover {
+    color: var(--text-default-color);
+  }
+
   .xl\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -23672,6 +23748,10 @@ table {
 
   .xl\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .xl\:focus\:text-default:focus {
+    color: var(--text-default-color);
   }
 
   .xl\:focus\:text-black:focus {

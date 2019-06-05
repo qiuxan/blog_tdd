@@ -1772,16 +1772,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      themes: {
+        'theme-light': '#f5f6f9',
+        'theme-dark': '#222'
+      },
       selectTheme: 'theme-light'
     };
+  },
+  created: function created() {
+    this.selectTheme = localStorage.getItem('theme') || 'theme-light';
   },
   watch: {
     selectTheme: function selectTheme() {
       // alert('change',this.selectTheme);
       document.body.className = document.body.className.replace(/theme-\w+/, this.selectTheme);
+      localStorage.setItem('theme', this.selectTheme);
     }
   }
 });
@@ -36830,25 +36845,24 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "mr-8 flex items-center" }, [
-    _c("button", {
-      staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2",
-      on: {
-        click: function($event) {
-          _vm.selectTheme = "theme-light"
+  return _c(
+    "div",
+    { staticClass: "mr-8 flex items-center" },
+    _vm._l(_vm.themes, function(color, theme) {
+      return _c("button", {
+        staticClass:
+          "rounded-full w-4 h-4 bg-default border mr-2 focus:outline-none",
+        class: { "border-accent": _vm.selectTheme == theme },
+        style: { backgroundColor: color },
+        on: {
+          click: function($event) {
+            _vm.selectTheme = theme
+          }
         }
-      }
+      })
     }),
-    _vm._v(" "),
-    _c("button", {
-      staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2",
-      on: {
-        click: function($event) {
-          _vm.selectTheme = "theme-dark"
-        }
-      }
-    })
-  ])
+    0
+  )
 }
 var staticRenderFns = []
 render._withStripped = true

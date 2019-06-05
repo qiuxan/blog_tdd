@@ -5419,6 +5419,7 @@ table {
   --text-muted-light-color: rgba(255, 255, 255, .3);
   --text-accent-color: #47cdff;
   --text-accent-light-color: #8ae2fe;
+  --text-error-color: red;
 }
 
 @media (min-width: 576px) {

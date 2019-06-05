@@ -29,7 +29,7 @@
         created() {
             this.selectTheme = localStorage.getItem('theme') || 'theme-light';
         },
-        
+
         watch:{
             selectTheme(){
 

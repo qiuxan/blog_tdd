@@ -1772,10 +1772,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
+  data: function data() {
+    return {
+      selectTheme: 'theme-light'
+    };
+  },
+  watch: {
+    selectTheme: function selectTheme() {
+      // alert('change',this.selectTheme);
+      document.body.className = document.body.className.replace(/theme-\w+/, this.selectTheme);
+    }
   }
 });
 
@@ -36823,28 +36830,27 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "mr-8 flex items-center" }, [
+    _c("button", {
+      staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2",
+      on: {
+        click: function($event) {
+          _vm.selectTheme = "theme-light"
+        }
+      }
+    }),
+    _vm._v(" "),
+    _c("button", {
+      staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2",
+      on: {
+        click: function($event) {
+          _vm.selectTheme = "theme-dark"
+        }
+      }
+    })
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mr-8 flex items-center" }, [
-      _c("button", {
-        staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2"
-      }),
-      _vm._v(" "),
-      _c("button", {
-        staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2"
-      }),
-      _vm._v(" "),
-      _c("button", {
-        staticClass: "rounded-full w-4 h-4 bg-default border border-accent mr-2"
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

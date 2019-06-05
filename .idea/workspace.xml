@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +67,13 @@
           <entry key="env" value="3" />
           <entry key="homestead-7:" value="1" />
           <entry key="js" value="7" />
-          <entry key="json" value="6" />
+          <entry key="json" value="7" />
           <entry key="master" value="1" />
           <entry key="php" value="256" />
           <entry key="scss" value="6" />
           <entry key="svg" value="6" />
           <entry key="vagrant:" value="1" />
+          <entry key="vue" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -80,12 +82,13 @@
           <entry key=".env file" value="3" />
           <entry key="Blade" value="66" />
           <entry key="CSS" value="1" />
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="7" />
           <entry key="JavaScript" value="7" />
           <entry key="PHP" value="190" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="6" />
           <entry key="SVG" value="6" />
+          <entry key="Vue.js" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -93,24 +96,26 @@
         <counts>
           <entry key="dummy" value="24" />
           <entry key="env" value="21" />
-          <entry key="js" value="115" />
+          <entry key="js" value="148" />
           <entry key="json" value="2" />
-          <entry key="php" value="24772" />
+          <entry key="php" value="24773" />
           <entry key="scss" value="459" />
           <entry key="svg" value="29" />
+          <entry key="vue" value="105" />
           <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="Blade" value="6708" />
+          <entry key="Blade" value="6709" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="115" />
+          <entry key="JavaScript" value="148" />
           <entry key="PHP" value="18064" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="459" />
           <entry key="SVG" value="29" />
+          <entry key="Vue.js" value="105" />
           <entry key="XML" value="54" />
         </counts>
       </usages-collector>
@@ -130,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+            <state relative-caret-position="379">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#7753#7759#0#HTML" expanded="true" />
               </folding>
@@ -139,10 +144,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-259" />
+            <state relative-caret-position="484">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -198,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Requests/UpdateProjectRequest.php" />
-        <option value="$PROJECT_DIR$/tests/Setup/ProjectFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/TaskFactory.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/TaskTest.php" />
@@ -248,7 +280,9 @@
         <option value="$PROJECT_DIR$/resources/sass/themes/light.scss" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/sass/themes/dark.scss" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue" />
       </list>
     </option>
   </component>
@@ -360,10 +394,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
+    <option name="x" value="1296" />
     <option name="y" value="55" />
-    <option name="width" value="1616" />
-    <option name="height" value="926" />
+    <option name="width" value="1232" />
+    <option name="height" value="1316" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -428,6 +462,13 @@
               <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogtdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogtdd" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -444,7 +485,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/js/app.js&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;logo.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/images/logo.svg&#10;input&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;app.b&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/css/app.css&#10;tailwind.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;ProjectFac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/ProjectFactory.php&#10;Projectf&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;card&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;Projectcon&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;MPT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;projectPo&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;Pr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectInvitationController.php&#10;inv&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/InvitationsTest.php&#10;error&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/errors.blade.php&#10;ProjectI&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;ViewE&#9;null&#9;null&#10;a_user_can_create_a_project&#9;null&#9;null&#10;PIC&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;car&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;project cont&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;up&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/activity/updated_project.blade.php&#10;reco&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;create&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;activityTest&#9;null&#9;null&#10;tr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php&#10;class_basename&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="json&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/package.json&#10;app.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/js/app.js&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;logo.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/images/logo.svg&#10;input&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;app.b&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/css/app.css&#10;tailwind.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;ProjectFac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/ProjectFactory.php&#10;Projectf&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;card&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;Projectcon&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;MPT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;projectPo&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;Pr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectInvitationController.php&#10;inv&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/InvitationsTest.php&#10;error&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/errors.blade.php&#10;ProjectI&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;ViewE&#9;null&#9;null&#10;a_user_can_create_a_project&#9;null&#9;null&#10;PIC&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;car&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;project cont&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;up&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/activity/updated_project.blade.php&#10;reco&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;create&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/migrations/2019_04_15_132710_create_activities_table.php&#10;activity&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Activity.php&#10;activityTest&#9;null&#9;null&#10;tr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/TriggerActivityTest.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -542,12 +583,12 @@
       <workItem from="1559170937771" duration="4244000" />
       <workItem from="1559258229936" duration="5499000" />
       <workItem from="1559391222549" duration="1487000" />
-      <workItem from="1559590322709" duration="4850000" />
+      <workItem from="1559590322709" duration="7867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271233000" />
+    <option name="totallyTimeSpent" value="274250000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -559,15 +600,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="518" width="1616" height="477" extended-state="0" />
+    <frame x="1296" y="55" width="1232" height="1316" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.15565439" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5045045" side_tool="true" weight="0.0" />
       <window_info id="Favorites" order="3" sideWeight="0.5028665" side_tool="true" weight="0.24537815" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7452471" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -615,14 +656,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Observers/TaskObserver.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8382">
-          <caret line="381" column="13" selection-start-line="381" selection-start-column="13" selection-end-line="381" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -878,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/themes/light.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -944,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state relative-caret-position="379">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#7753#7759#0#HTML" expanded="true" />
           </folding>
@@ -954,7 +980,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259" />
+        <state relative-caret-position="484">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ThemeSwitcher.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
       </provider>
     </entry>
   </component>

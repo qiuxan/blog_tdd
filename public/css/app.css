@@ -1043,6 +1043,10 @@ table {
   border-color: #ffebef;
 }
 
+.border-error {
+  border-color: var(--text-error-color);
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -1335,6 +1339,10 @@ table {
   border-color: #ffebef;
 }
 
+.hover\:border-error:hover {
+  border-color: var(--text-error-color);
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -1625,6 +1633,10 @@ table {
 
 .focus\:border-pink-lightest:focus {
   border-color: #ffebef;
+}
+
+.focus\:border-error:focus {
+  border-color: var(--text-error-color);
 }
 
 .rounded-none {
@@ -4386,6 +4398,10 @@ table {
   color: #ffebef;
 }
 
+.text-error {
+  color: var(--text-error-color);
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -4682,6 +4698,10 @@ table {
   color: #ffebef;
 }
 
+.hover\:text-error:hover {
+  color: var(--text-error-color);
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -4976,6 +4996,10 @@ table {
 
 .focus\:text-pink-lightest:focus {
   color: #ffebef;
+}
+
+.focus\:text-error:focus {
+  color: var(--text-error-color);
 }
 
 .text-xs {
@@ -5414,6 +5438,7 @@ table {
   --text-muted-color: rgba(0, 0, 0, .3);
   --text-muted-light-color: rgba(255, 255, 255, .1);
   --text-muted-light-color: #e1e6e8;
+  --text-error-color: red;
 }
 
 .theme-dark {
@@ -5427,6 +5452,7 @@ table {
   --text-accent-color: #47cdff;
   --text-accent-light-color: #8ae2fe;
   --text-error-color: red;
+  --text-muted-light-color: #e1e6e8;
 }
 
 @media (min-width: 576px) {
@@ -5857,6 +5883,10 @@ table {
     border-color: #ffebef;
   }
 
+  .sm\:border-error {
+    border-color: var(--text-error-color);
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -6149,6 +6179,10 @@ table {
     border-color: #ffebef;
   }
 
+  .sm\:hover\:border-error:hover {
+    border-color: var(--text-error-color);
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -6439,6 +6473,10 @@ table {
 
   .sm\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .sm\:focus\:border-error:focus {
+    border-color: var(--text-error-color);
   }
 
   .sm\:rounded-none {
@@ -9184,6 +9222,10 @@ table {
     color: #ffebef;
   }
 
+  .sm\:text-error {
+    color: var(--text-error-color);
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -9480,6 +9522,10 @@ table {
     color: #ffebef;
   }
 
+  .sm\:hover\:text-error:hover {
+    color: var(--text-error-color);
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -9774,6 +9820,10 @@ table {
 
   .sm\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .sm\:focus\:text-error:focus {
+    color: var(--text-error-color);
   }
 
   .sm\:text-xs {
@@ -10615,6 +10665,10 @@ table {
     border-color: #ffebef;
   }
 
+  .md\:border-error {
+    border-color: var(--text-error-color);
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -10907,6 +10961,10 @@ table {
     border-color: #ffebef;
   }
 
+  .md\:hover\:border-error:hover {
+    border-color: var(--text-error-color);
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -11197,6 +11255,10 @@ table {
 
   .md\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .md\:focus\:border-error:focus {
+    border-color: var(--text-error-color);
   }
 
   .md\:rounded-none {
@@ -13942,6 +14004,10 @@ table {
     color: #ffebef;
   }
 
+  .md\:text-error {
+    color: var(--text-error-color);
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -14238,6 +14304,10 @@ table {
     color: #ffebef;
   }
 
+  .md\:hover\:text-error:hover {
+    color: var(--text-error-color);
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -14532,6 +14602,10 @@ table {
 
   .md\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .md\:focus\:text-error:focus {
+    color: var(--text-error-color);
   }
 
   .md\:text-xs {
@@ -15373,6 +15447,10 @@ table {
     border-color: #ffebef;
   }
 
+  .lg\:border-error {
+    border-color: var(--text-error-color);
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -15665,6 +15743,10 @@ table {
     border-color: #ffebef;
   }
 
+  .lg\:hover\:border-error:hover {
+    border-color: var(--text-error-color);
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -15955,6 +16037,10 @@ table {
 
   .lg\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .lg\:focus\:border-error:focus {
+    border-color: var(--text-error-color);
   }
 
   .lg\:rounded-none {
@@ -18700,6 +18786,10 @@ table {
     color: #ffebef;
   }
 
+  .lg\:text-error {
+    color: var(--text-error-color);
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -18996,6 +19086,10 @@ table {
     color: #ffebef;
   }
 
+  .lg\:hover\:text-error:hover {
+    color: var(--text-error-color);
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -19290,6 +19384,10 @@ table {
 
   .lg\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .lg\:focus\:text-error:focus {
+    color: var(--text-error-color);
   }
 
   .lg\:text-xs {
@@ -20131,6 +20229,10 @@ table {
     border-color: #ffebef;
   }
 
+  .xl\:border-error {
+    border-color: var(--text-error-color);
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -20423,6 +20525,10 @@ table {
     border-color: #ffebef;
   }
 
+  .xl\:hover\:border-error:hover {
+    border-color: var(--text-error-color);
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -20713,6 +20819,10 @@ table {
 
   .xl\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .xl\:focus\:border-error:focus {
+    border-color: var(--text-error-color);
   }
 
   .xl\:rounded-none {
@@ -23458,6 +23568,10 @@ table {
     color: #ffebef;
   }
 
+  .xl\:text-error {
+    color: var(--text-error-color);
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -23754,6 +23868,10 @@ table {
     color: #ffebef;
   }
 
+  .xl\:hover\:text-error:hover {
+    color: var(--text-error-color);
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -24048,6 +24166,10 @@ table {
 
   .xl\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .xl\:focus\:text-error:focus {
+    color: var(--text-error-color);
   }
 
   .xl\:text-xs {

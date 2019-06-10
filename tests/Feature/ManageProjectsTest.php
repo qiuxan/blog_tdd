@@ -202,6 +202,25 @@ class ManageProjectsTest extends TestCase
 
 
     }
+
+    /** @test */
+    public function tasks_can_be_included_as_part_of_a_creation()
+    {
+        $this->signIn();
+
+        $attributes=factory(Project::class)->raw();
+
+        $attributes['tasks']=[
+            ['body'=>'Task 1'],
+            ['body'=>'Task2']
+        ];
+
+
+        $this->post('/projects',$attributes);
+
+//        dd(Project::first());
+        $this->assertCount(2, Project::first()->tasks);
+    }
 //    /** @test*/
 
 //    public function a_user_can_view_their_project(){

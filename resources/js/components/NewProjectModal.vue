@@ -35,7 +35,7 @@
                                 class="mb-2 border border-muted-light py-2 px-2 tex-xs block w-full rounded"
                                 placeholder="Task 1"
                                 v-for="task in form.tasks"
-                                v-model="task.value"
+                                v-model="task.body"
                         >
                     </div>
 
@@ -73,7 +73,7 @@
                     description:'',
                     tasks:[
 
-                        {value:''},
+                        {body:''},
                     ]
                 },
 

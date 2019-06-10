@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="97efab59-5e35-4f8b-b9b6-186c34487652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
           <entry key="js" value="9" />
           <entry key="json" value="7" />
           <entry key="master" value="1" />
-          <entry key="php" value="259" />
+          <entry key="php" value="262" />
           <entry key="scss" value="9" />
           <entry key="svg" value="6" />
           <entry key="vagrant:" value="1" />
@@ -85,7 +87,7 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="9" />
-          <entry key="PHP" value="191" />
+          <entry key="PHP" value="194" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="9" />
           <entry key="SVG" value="6" />
@@ -99,10 +101,10 @@
           <entry key="env" value="21" />
           <entry key="js" value="260" />
           <entry key="json" value="2" />
-          <entry key="php" value="25575" />
+          <entry key="php" value="25926" />
           <entry key="scss" value="584" />
           <entry key="svg" value="29" />
-          <entry key="vue" value="1210" />
+          <entry key="vue" value="1236" />
           <entry key="xml" value="54" />
         </counts>
       </usages-collector>
@@ -112,11 +114,11 @@
           <entry key="Blade" value="7465" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="260" />
-          <entry key="PHP" value="18110" />
+          <entry key="PHP" value="18461" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="584" />
           <entry key="SVG" value="29" />
-          <entry key="Vue.js" value="1210" />
+          <entry key="Vue.js" value="1236" />
           <entry key="XML" value="54" />
         </counts>
       </usages-collector>
@@ -136,17 +138,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/NewProjectModal.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+            <state relative-caret-position="196">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="217" column="24" selection-start-line="217" selection-start-column="24" selection-end-line="217" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+              <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -162,7 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>activityChanges</find>
       <find>return</find>
       <find>created</find>
       <find>old</find>
@@ -192,6 +220,7 @@
       <find>let color</find>
       <find>let colors</find>
       <find>he</find>
+      <find>@click.prevent=&quot;$modal.show('new_project')&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>text-default</replace>
@@ -227,7 +256,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_22_120114_create_project_members_table.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ProjectTest.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/tests/Unit/UserTest.php" />
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -240,7 +268,6 @@
         <option value="$PROJECT_DIR$/tests/Feature/InvitationsTest.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/card.blade.php" />
         <option value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/public/images/logo.svg" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -251,9 +278,11 @@
         <option value="$PROJECT_DIR$/tailwind.js" />
         <option value="$PROJECT_DIR$/resources/sass/themes/light.scss" />
         <option value="$PROJECT_DIR$/resources/sass/themes/dark.scss" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/NewProjectModal.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/Project.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
       </list>
     </option>
   </component>
@@ -456,7 +485,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;newp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/js/components/NewProjectModal.vue&#10;ProjectC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;tailwind.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;ta&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/package.json&#10;themes/d&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/themes/dark.scss&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/app.scss&#10;json&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/package.json&#10;app.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/js/app.js&#10;logo.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/images/logo.svg&#10;input&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;app.b&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/css/app.css&#10;ProjectFac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/ProjectFactory.php&#10;Projectf&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;card&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;Projectcon&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;MPT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;projectPo&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;Pr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectInvitationController.php&#10;inv&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/InvitationsTest.php&#10;error&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/errors.blade.php&#10;ProjectI&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;ViewE&#9;null&#9;null&#10;a_user_can_create_a_project&#9;null&#9;null&#10;PIC&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;car&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;rec&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/RecordsActivity.php&#10;project cont&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;up&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/activity/updated_project.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="addTask&#9;null&#9;null&#10;Project&#9;null&#9;null&#10;projectC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;ma&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;index&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;newp&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/js/components/NewProjectModal.vue&#10;ProjectC&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;tailwind.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;ta&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tailwind.js&#10;inde&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/index.blade.php&#10;js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/package.json&#10;themes/d&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/themes/dark.scss&#10;app&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/sass/app.scss&#10;json&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/package.json&#10;app.js&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/js/app.js&#10;logo.&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/images/logo.svg&#10;input&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;app.b&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/public/css/app.css&#10;ProjectFac&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/database/factories/ProjectFactory.php&#10;Projectf&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;mana&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;card&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/card.blade.php&#10;Projectcon&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;MPT&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/ManageProjectsTest.php&#10;show&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;projectPo&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Pro&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;Pr&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectInvitationController.php&#10;inv&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Feature/InvitationsTest.php&#10;error&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/errors.blade.php&#10;ProjectI&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Requests/ProjectInvitationRequest.php&#10;ViewE&#9;null&#9;null&#10;a_user_can_create_a_project&#9;null&#9;null&#10;PIC&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;compos&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/composer.json&#10;web&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php&#10;sh&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/resources/views/projects/show.blade.php&#10;Usert&#9;null&#9;null&#10;project&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Project.php&#10;user&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/User.php&#10;ProjectFactory&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Setup/ProjectFactory.php&#10;User&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/UserTest.php&#10;pc&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;poli&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Policies/ProjectPolicy.php&#10;Proj&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/app/Http/Controllers/ProjectsController.php&#10;projectTest&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/tests/Unit/ProjectTest.php&#10;w&#9;FILE&#9;file:///Users/xianqiu/Code/blogtdd/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -555,12 +584,12 @@
       <workItem from="1559258229936" duration="5499000" />
       <workItem from="1559391222549" duration="1487000" />
       <workItem from="1559590322709" duration="10281000" />
-      <workItem from="1559788871539" duration="17790000" />
+      <workItem from="1559788871539" duration="21123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294454000" />
+    <option name="totallyTimeSpent" value="297787000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -750,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -817,13 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -916,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tailwind.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -965,17 +973,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/NewProjectModal.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewProjectModal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="217" column="24" selection-start-line="217" selection-start-column="24" selection-end-line="217" selection-end-column="24" />
         </state>
       </provider>
     </entry>

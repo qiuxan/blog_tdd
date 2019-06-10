@@ -29,6 +29,8 @@ class ProjectsController extends Controller
 
     public function store(){
 
+
+
         //validate
 
       //  dd('hehe');
@@ -36,6 +38,12 @@ class ProjectsController extends Controller
         //dd(request());
 
         $project=auth()->user()->projects()->create($this->validateRequest());
+
+        if (request()->has('tasks')){
+            foreach (request('tasks') as $task){
+                $project->addTask($task['body']);
+            }
+        }
 
         if (request()->wantsJson()){
             return ['message'=>$project->path()];

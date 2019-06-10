@@ -1846,6 +1846,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37955,6 +37956,7 @@ var render = function() {
                 "button",
                 {
                   staticClass: "inline-flex items-center text-xs",
+                  attrs: { type: "button" },
                   on: { click: _vm.addTask }
                 },
                 [
@@ -38001,7 +38003,8 @@ var render = function() {
                 attrs: { type: "button" },
                 on: {
                   click: function($event) {
-                    return _vm.$modal.hide("new-project")
+                    $event.preventDefault()
+                    return _vm.$modal.hide("new_project")
                   }
                 }
               },
